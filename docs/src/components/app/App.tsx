@@ -1,9 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import MainPage from '../../pages/main-page/main-page';
 
-function App() {
-  return (
+function App(): JSX.Element {
+  /*return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -20,6 +21,10 @@ function App() {
         </a>
       </header>
     </div>
+  );*/
+
+  return (
+    <MainPage />
   );
 }
 
